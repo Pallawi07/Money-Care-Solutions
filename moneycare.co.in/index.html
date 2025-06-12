@@ -1,0 +1,953 @@
+<!--       (((((/   ((((((/                                                                                           
+         #(((((((/// ((((((////                ***********      ////     ///// ((((((((( (((((     (((((  ((((())))   
+       ###(((((((///   /   /////*              **************   ////     ///// ///((((//  (((((  (((((   (((((())))))
+    ######(((((((/// ((( (( ///  ***           *****     *****  //////////////    ((((      (((((((((   (((((/   \)))))
+  ########(((((((///(((((((   //****,          *****     *****  //////////////    ((((       ((((((     (((((|   |)))))
+  %####### ((((((///   (((   // * ** ,,        *****     *****  ////     /////    ((((        (((((     (((((|   |)))))
+  ########( (((((//  (((((( ////****, ,,       *************    ////     ///// /((((((((      (((((      (((((\ /))))) 
+#%########(((((((/// (((((/ ////*** , ,        ***********      ////     ///// /((((((((      (((((       ((((()))))   
+#%##### ###(((((((///(((  ((//    ***,,  ,                                                           ####               
+##%%#######(((((((///(((   (/////****,,   ,      ////                                                ####               
+#%%%#######(((((((///  (((((// //  **,,,  ,      ////                                                ####               
+#%%%#######(( ((((/// (((((   ///*  *,,,  ,,   /////////////    /////((((((((        (((((((((((##   ####  ##########   
+ #%### ####(((((((/// (((((( ////**   ,   ,      ////         /////       (((((    ((((((      (##   #######     #####  
+ ##########((((((( // ((((((       **,,,,,       ////        ////          (((((  ((((               ####         ##### 
+ #%########(((((((///   (( (/////****,,,,,       ////        ////////((((((((((( (((((               ####         ##### 
+  #########(((((((///  (((((/////*   , ,,        ////        ////                (((((               ####         ##### 
+   #####(##(((((((*// ( (( (  ///***  ,,         ////        /////            ((  (((((              ####         ##### 
+     ######(((((((/// (     /////****,            //////////   ///////((((((((((   (((((((((((((##   ####         ##### 
+        ###(((((((//  /((/(( ////*                   //////        ///((((((          ((((((((((##   ####         #####    -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    
+    <title>Money Care & Solutions - A Portfolio Management Company</title>
+    <meta content="Money Care and Solutions is a financial portfolio management company that uses state of the art technology to provide the best service, accessibility, confidentiality and consultancy for clients." name="description">
+    <meta content="Money Care & Solutions" name="keywords">
+    <meta name="author" content="Money Care & Solutions">
+    
+    <!--  Essential META Tags -->
+    <meta property="og:title" content="Money Care & Solutions">
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://staging.moneycare.co.in/assets/social.png">
+    <meta property="og:url" content="https://staging.moneycare.co.in/">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://staging.moneycare.co.in/" />
+    
+    <!--  Non-Essential, But Recommended -->
+    <meta property="og:description" content="Financial portfolio management company that uses state of the art technology to provide the best service, accessibility, confidentiality and consultancy for clients.">
+    <meta property="og:site_name" content="Money Care & Solutions">
+    <meta name="twitter:image:alt" content="Money Care & Solutions">
+    
+    <!--  Non-Essential, But Required for Analytics -->
+    <!--<meta property="fb:app_id" content="your_app_id" />-->
+    <meta name="twitter:site" content="@website-username">
+    
+    <!-- Favicons -->
+    <link href="assets/img/favicon.ico" rel="icon">
+    <link href="assets/img/favicon.ico" rel="apple-touch-icon">
+    
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    
+    <style>
+        @-webkit-keyframes fadeIn {
+          from { opacity: 0; }
+          to { opacity: 1; }
+        }
+        @keyframes fadeIn {
+          from { opacity: 0; }
+          to { opacity: 1; }
+        }
+        .readmorepara {
+          display: block;
+          -webkit-animation: fadeIn 1s;
+          animation: fadeIn 1s;
+        }
+        #more-1, #more-2, #more-3, #more-4, #more-5, #more-6, #more-7, #more-8 {
+          display: none;
+          -webkit-animation: fadeIn 1s;
+          animation: fadeIn 1s;
+        }
+        button#readmore-1, button#readmore-2, button#readmore-3, button#readmore-4, button#readmore-5, button#readmore-6, button#readmore-7, button#readmore-8 {
+          background: #47b2e4;
+          border: 0;
+          margin-top: 10px;
+          padding: 6px 20px;
+          color: #fff;
+          transition: 1s;
+          border-radius: 50px;
+        }
+        /* ================ app screenshots ============== */
+        .bg {
+          position: absolute;
+          width: 230px;
+          height: 540px;
+        }
+        .corousel-container {
+          width: 200px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-inline: auto;
+        }
+        
+        .item {
+          width: 140px;
+          height: 430px;
+          border-radius: 15px;
+          border: 1px solid gray;
+        }
+        
+        @media (min-width: 600px) {
+          .bg {
+            position: absolute;
+            width: 210px;
+            height: 460px;
+          }
+        
+          .corousel-container {
+            width: 600px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-inline: auto;
+          }
+        
+          .item {
+            width: 100px;
+            height: 364px;
+          }
+        }
+        
+        @media (min-width: 1000px) {
+          .bg {
+            position: absolute;
+            width: 220px;
+            height: 460px;
+          }
+        
+          .corousel-container {
+            width: 1040px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-inline: auto;
+          }
+        
+          .item {
+            width: 150px;
+            height: 364px;
+          }
+        }
+        
+        /* =========================================== */
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center">
+
+      <!--<h1 class="logo me-auto"><a href="/"><img src="assets/img/pfm-logo.png" alt="Money Care And Solutions"></a></h1>-->
+      <!-- Uncomment below if you prefer to use an image logo -->
+       <a href="/" class="logo me-auto"><img src="assets/img/pfm-logo.png" alt="Money Care And Solutions" class="img-fluid" width="180" height="60" Title="MCS Logo"></a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#services">Services</a></li>
+          <li><a class="nav-link scrollto" href="#portfolio">App</a></li>
+          <li><a class="nav-link scrollto" href="#team">Testimonials</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <!--<li><a class="getstarted scrollto" href="#about">Get Started</a></li>-->
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
+          data-aos="fade-up" data-aos-delay="200">
+          <!-- <h1>Better Solutions For Your Business</h1> -->
+          <h1>Money Care And Solutions</h1>
+          <h2>We specialize in grouping your financial assets / Investments such as Life Insurance, General Insurance,
+            Bonds, Debentures, Mutual Funds & other counterparts and align it into a Portfolio.</h2>
+          <div class="d-flex justify-content-center justify-content-lg-start">
+            <!-- <a href="#about" class="btn-get-started scrollto">Get Started</a>
+            <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
+            <!-- https://drive.google.com/file/d/1Hy-HZ2SsEpwDT1BxC8i_1ihDvC7V-i78/view?usp=sharing -->
+            <a class="pe-2 pe-sm-3 pe-md-4 mb-5" href="https://drive.google.com/file/d/1etXBo-WdEA0fq2ExGA1NP7qG9Ck-7ztV/view?usp=sharing"><img loading="lazy" src="assets/img/google-play.png" width="160" alt="Get on Google Play" height="50" title="Google Play Badge"></a>
+            <a href="https://apps.apple.com/lt/app/money-care-solutions/id6498711135"><img loading="lazy" src="assets/img/app-store.png" width="160" alt="Get on Apple Store" height="50" title="Apple Store Badge"></a>
+          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+              <!--<img src="assets/img/hero-img.png" class="img-fluid animated" alt="Money Care And Solutions">-->
+              <img src="assets/img/hero-img.png" class="img-fluid animated" alt="Money Care And Solutions" width="600" height="600" Title="Moneycare Hero Banner App Image">
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>About Us</h2>
+        </div>
+
+        <div class="row content">
+          <div class="col-lg-5 pt-4 pt-lg-0">
+            <div class="contain">
+              <!-- <div id="about-owl-carousel" class="owl-carousel owl-theme">
+                <div class="item image1"></div>
+                <div class="item image2"></div>
+                <div class="item image3"></div>
+              </div> -->
+              <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" loading="lazy" data-aos="zoom-in" data-aos-delay="150" style="width: 100%;text-align: center;text-align: -webkit-center;text-align-last: center;">
+                <video width="400" autoplay loop muted playsinline defaultmuted preload="auto" style="max-width: 90vw;" >
+                  <source src="assets/about-slide.mp4" type="video/mp4">
+                 
+                  Your browser does not support HTML video.
+                </video>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <p>
+              <b>Money Care & Solutions</b> is an independent portfolio management company specializing in maintaining
+              relationships to provide best services and customized solutions to their clients. We aim to emerge as the
+              most trusted and preferred financial planner amongst our valued clients by understanding their financial
+              needs, guiding and supporting them time to time while planning basic financial milestones in their life.
+            </p>
+            <p>
+              The backbone of our organization is maintaining whole life mutually benefited relationships with our
+              clients and their families by providing complete financial awareness that guarantees better results in the
+              future.We have a firm belief on our ethics, sincerity, honesty and unbiased approach which will help us to
+              reach newer heights and will also help us to serve you in the best possible manner.
+            </p>
+            <p>
+              Our functioning involves complete analysis of an individual's portfolio. Post analysis, we educate them
+              about their existing investments and risk managing insurance policies. Finally, we work for the betterment
+              by providing customized services and solution. To our valued clients we offer the best possible quotes to
+              fulfill their needs in a complete manner.
+            </p>
+          </div>
+        </div>
+        <!-- <style>
+            #about-owl-carousel .item {
+                border: 0px;
+                width: 100%;
+                align-items: center;
+                color: white;
+                display: flex;
+                height: 400px;
+                justify-content: center;
+            }
+            .item.image1 {
+                background: url('https://staging.moneycare.co.in/assets/img/car-1.jpg');
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+            .item.image2 {
+                background: url('https://staging.moneycare.co.in/assets/img/car-2.jpg');
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+            .item.image3 {
+                background: url('https://staging.moneycare.co.in/assets/img/car-3.jpg');
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+        </style> -->
+      </div>
+    </section><!-- End About Us Section -->
+
+    <!-- ======= Why Us Section ======= -->
+    <section id="why-us" class="why-us section-bg">
+      <div class="container-fluid" data-aos="fade-up">
+
+        <div class="row">
+
+          <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
+
+            <div class="content">
+              <h3><strong>Empowering Your Financial Future: Discover Money Care & Solutions</strong></h3>
+            </div>
+
+            <div class="accordion-list">
+              <ul>
+                <li>
+                  <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span>01</span>
+                    Client-Centric Approach <i class="bx bx-chevron-down icon-show"></i><i
+                      class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
+                    <p>
+                      Money Care & Solutions prioritizes maintaining long-term, mutually beneficial relationships with
+                      clients by offering customized solutions and continuous support for their financial needs.
+                    </p>
+                  </div>
+                </li>
+
+                <li>
+                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed"><span>02</span>
+                    Financial Awareness <i class="bx bx-chevron-down icon-show"></i><i
+                      class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
+                    <p>
+                      The company is dedicated to providing clients with complete financial awareness, ensuring better
+                      results in the future.
+                    </p>
+                  </div>
+                </li>
+
+                <li>
+                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span>03</span>
+                    Ethical Values <i class="bx bx-chevron-down icon-show"></i><i
+                      class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
+                    <p>
+                      Money Care & Solutions is committed to ethical, sincere, honest, and unbiased practices, which
+                      guide their approach to serving clients.
+                    </p>
+                  </div>
+                </li>
+
+                <li>
+                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-4" class="collapsed"><span>04</span>
+                    Portfolio Analysis <i class="bx bx-chevron-down icon-show"></i><i
+                      class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-4" class="collapse" data-bs-parent=".accordion-list">
+                    <p>The firm conducts thorough portfolio analysis for each client, offering education about existing investments and risk management solutions.</p>
+                  </div>
+                </li>
+
+                <li>
+                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-5" class="collapsed"><span>05</span>
+                    Customized Services <i class="bx bx-chevron-down icon-show"></i><i
+                      class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-5" class="collapse" data-bs-parent=".accordion-list">
+                    <p>
+                      Tailored services and solutions are provided to meet each client's unique needs.
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-6" class="collapsed"><span>06</span>
+                    Competitive Quotes <i class="bx bx-chevron-down icon-show"></i><i
+                      class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-6" class="collapse" data-bs-parent=".accordion-list">
+                    <p>
+                      The company offers competitive quotes to fulfill clients' requirements comprehensively.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+
+          <!--<div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" loading="lazy" style='background-image: url("assets/img/why-us.png");' data-aos="zoom-in" data-aos-delay="150">&nbsp;</div>-->
+          <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" loading="lazy" data-aos="zoom-in" data-aos-delay="150" style="text-align: center;align-self: center;text-align: -webkit-center;">
+            <video width="400" autoplay loop muted playsinline defaultmuted preload="auto" style="max-width: 90vw;">
+              <source src="assets/about.mp4" type="video/mp4">
+             
+              Your browser does not support HTML video.
+            </video>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Why Us Section -->
+
+    <!-- ======= Skills Section ======= -->
+    <!-- <section id="skills" class="skills">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
+            <img src="assets/img/skills.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
+            <h3>Voluptatem dignissimos provident quasi corporis voluptates</h3>
+            <p class="fst-italic">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua.
+            </p>
+
+            <div class="skills-content">
+
+              <div class="progress">
+                <span class="skill">HTML <i class="val">100%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">CSS <i class="val">90%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">JavaScript <i class="val">75%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">Photoshop <i class="val">55%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section> -->
+    <!-- End Skills Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Services</h2>
+          <p>We specialize in grouping your financial assets / Investments such as Life Insurance, General Insurance,
+            Bonds, Debentures, Mutual Funds & other counterparts and align it into a Portfolio.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bxl-dribbble"></i></div>
+              <h4><a href="">Portfolio Analysis</a></h4>
+              <p class="readmorepara">Unlock the Power of Your Investments with MCS!
+                <br><br>
+                Are you fully aware of the intricate tapestry of your investments? If your answer is 'NO,' then Money Care & Solutions (MCS) is your ideal partner.<span id="dots-1">...</span><span id="more-1"> We're here to harmonize your investments and equip them to thrive even in challenging times.
+                <br><br>
+                Our expertise lies in conducting a comprehensive analysis of your investment portfolio. This in-depth examination allows us to assess the true potential of your investments and understand the strategies behind them. We leave no stone unturned, ensuring that every aspect of your investments is optimized for maximum returns.
+                <br><br>
+                Discover the untapped potential of your investments with MCS by your side.</span>
+              </p>
+
+              <button onclick="myFunction(this.getAttribute('morevalue'))" id="readmore-1" morevalue="1">Read more</button>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in"
+            data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4><a href="">Portfolio Overview</a></h4>
+              <p class="readmorepara">Know what you own, and know why you own it.
+                <br><br>
+                At MCS, we're dedicated to ensuring you're well-informed about your investments. We provide a concise, easy-to-grasp overview of your portfolio, highl<span id="dots-2">...</span><span id="more-2">ighting critical details that may have slipped your notice during the initial purchase. This comprehensive snapshot covers the essential aspects of your investments. For instance, in the case of Life Insurance Policies, it includes crucial information on Survival Benefits, Money Backs, Death Benefits, Maturity Benefits, and more. Our goal is to empower you with a deeper understanding of your financial choices.</span>
+              </p>
+
+              <button onclick="myFunction(this.getAttribute('morevalue'))" id="readmore-2" morevalue="2">Read more</button>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in"
+            data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-tachometer"></i></div>
+              <h4><a href="">Policy Summary</a></h4>
+              <p class="readmorepara">A Stitch in Time Saves Nine...
+                <br><br>
+                Don't overlook the value of timely action. MCS offers a consolidated view of your investments, including Life Insurance, Mutual Fund Folios, Health and Motor Insurance policies, and more.<span id="dots-3">...</span><span id="more-3"> This quick reference allows you to review essential details like Effective Sum Assured, Riders, Nominations, Assignments, Loans, Partial Withdrawals, Maturity Terms, and other critical policy features. Simplify your investment evaluation with our systematic approach.</span>
+              </p>
+
+              <button onclick="myFunction(this.getAttribute('morevalue'))" id="readmore-3" morevalue="3">Read more</button>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in"
+            data-aos-delay="400">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-layer"></i></div>
+              <h4><a href="">Customised Statements</a></h4>
+              <p class="readmorepara">Informative Statements for Informed Choices
+                <br><br>
+                At MCS, we take pride in delivering informative, high-quality statements to our valued clients on a monthly, quarterly, and <span id="dots-4">...</span><span id="more-4">yearly basis. Our monthly statements include critical portfolio updates, current status, and renewal alerts. Quarterly statements encompass all transactions such as renewal payments, endorsements, withdrawals, redemptions, and any claim settlements. Moreover, we provide Tax Saving Statements with receipts at the end of each financial year to help you maximize your investments' tax benefits in compliance with Income Tax Laws.</span>
+              </p>
+
+              <button onclick="myFunction(this.getAttribute('morevalue'))" id="readmore-4" morevalue="4">Read more</button>
+            </div>
+          </div>
+
+        </div>
+        <div class="row mt-4">
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bxl-dribbble"></i></div>
+              <h4><a href="">Renewal Alerts</a></h4>
+              <p class="readmorepara">Never Miss a Payment with Our Reminders
+                <br><br>
+                Your financial well-being is our priority. We ensure you stay on top of your premium payment schedule to avoid late fees and policy lapses. In our<span id="dots-5">...</span><span id="more-5"> online portal and monthly statements, you'll find premium reminders for the next three months. Additionally, we send renewal notices via SMS 15 and 7 days before the due date.
+<br>
+                  To offer further assistance, we make a friendly reminder call five days before your policies require payment. During this call, we can facilitate the collection of your renewal payment in cash or by cheque. Rest assured, the receipts are thoughtfully enclosed with your monthly statement.</span>
+              </p>
+
+              <button onclick="myFunction(this.getAttribute('morevalue'))" id="readmore-5" morevalue="5">Read more</button>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in"
+            data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4><a href="">Fund Management</a></h4>
+              <p class="readmorepara">Maximizing Your Returns, One Service at a Time
+                <br><br>
+                We believe in the proactive management of your investments to ensure you get the most out of them. Here are some key services we offer:<span id="dots-6">...</span><span id="more-6">
+<br><br>
+                  <strong>1. Performance Tracking:</strong> We continuously monitor the performance of your investments to keep you informed.
+                  <br><br>
+                  <strong>2. Asset Allocation:</strong> We optimize your asset allocation to ensure it aligns with your financial goals.
+                  <br><br>
+                  <strong>3. Fund Switching:</strong> Based on performance, we facilitate systematic transfers between funds.
+                  <br><br>
+                  <strong>4. Premium Redirection:</strong> We help redirect your premiums as needed to ensure your investments are on the right track.
+                  <br><br>
+                  Our goal is to help you achieve maximum returns on your investments.</span>
+              </p>
+
+              <button onclick="myFunction(this.getAttribute('morevalue'))" id="readmore-6" morevalue="6">Read more</button>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in"
+            data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-tachometer"></i></div>
+              <h4><a href="">Claim Settlements</a></h4>
+              <p class="readmorepara">Simplified Insurance Claims
+                <br><br>
+                At MCS, we've streamlined the insurance claims process to make it simple and efficient. Our priority is ensuring legitimate claims are settled promptly. Please note:
+<span id="dots-7">...</span><span id="more-7"><br><br>
+                  <strong>1. Claim Notification:</strong> Notify us of your claim, and we'll guide you through the process.
+                  <br><br>
+                  <strong>2. Document Submission:</strong> Timely submission of required documents is essential for a smooth claims process.
+                  <br><br>
+                  <strong>3. Important Note:</strong> Notifying us or providing claim documents does not imply admission of liability. We're committed to fair and expedited settlements.</span>
+              </p>
+
+              <button onclick="myFunction(this.getAttribute('morevalue'))" id="readmore-7" morevalue="7">Read more</button>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in"
+            data-aos-delay="400">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-layer"></i></div>
+              <h4><a href="">Door-Step Services</a></h4>
+              <p class="readmorepara">Time-Saving Doorstep Services
+                <br><br>
+                We know your time is valuable. For our busy clients who can't step out to update their portfolios, make endorsements, release payouts, or submit claims, we offer doorstep services.
+<span id="dots-8">...</span><span id="more-8"><br><br>
+                  Here's what we provide:
+                    <br><br>
+                    <strong>1. Convenience:</strong> Save time by letting us come to you.
+                    <br><br><strong>2. Efficiency:</strong> We ensure timely updates and services within 24 hours.
+                    <br><br><strong>3. Your Peace of Mind:</strong> Count on us for swift, hassle-free support when you need it most.</span>
+              </p>
+
+              <button onclick="myFunction(this.getAttribute('morevalue'))" id="readmore-8" morevalue="8">Read more</button>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-start">
+            <h3>Got Questions or Need Assistance?</h3>
+            <p>Have questions about your portfolio or our app? Our dedicated team is here to assist you every step of the way. Whether you need guidance on investment decisions, want to explore the full potential of our app, or simply seek professional advice on managing your portfolio, we're just a message away.
+              <br><br>
+              Contact us today, and let's start a conversation about your financial goals and how we can help you achieve them. Your financial success is our top priority, and we're committed to providing you with the support and expertise you need. Reach out to us now, and let's embark on this financial journey together.</p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="tel:+91 99269 99379">Call US</a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Cta Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>App Overview</h2>
+          <br>
+        </div>
+
+        <div class="corousel-container">
+          <img src="assets/img/screenshot/screenshot-mobile-mockup.png" alt="Mobile Mockup Background" class="bg">
+          <div style="position: relative;" id="mobile-mockup-carousel" class="owl-carousel owl-theme">
+             <img loading="lazy" src="assets/img/screenshot/1.jpg" alt="" class="item">
+             <img loading="lazy" src="assets/img/screenshot/2.jpg" alt="" class="item">
+             <img loading="lazy" src="assets/img/screenshot/3.jpg" alt="" class="item">
+             <img loading="lazy" src="assets/img/screenshot/4.jpg" alt="" class="item">
+             <img loading="lazy" src="assets/img/screenshot/5.jpg" alt="" class="item">
+             <img loading="lazy" src="assets/img/screenshot/6.jpg" alt="" class="item">
+             <img loading="lazy" src="assets/img/screenshot/7.jpg" alt="" class="item">
+             <img loading="lazy" src="assets/img/screenshot/8.jpg" alt="" class="item">
+             <img loading="lazy" src="assets/img/screenshot/9.jpg" alt="" class="item">
+             <img loading="lazy" src="assets/img/screenshot/10.jpg" alt="" class="item">
+             <img loading="lazy" src="assets/img/screenshot/11.jpg" alt="" class="item">
+             <img loading="lazy" src="assets/img/screenshot/12.jpg" alt="" class="item">
+             <img loading="lazy" src="assets/img/screenshot/13.jpg" alt="" class="item">
+             <img loading="lazy" src="assets/img/screenshot/14.jpg" alt="" class="item">
+             <img loading="lazy" src="assets/img/screenshot/15.jpg" alt="" class="item">
+             <img loading="lazy" src="assets/img/screenshot/16.jpg" alt="" class="item">
+             <img loading="lazy" src="assets/img/screenshot/17.jpg" alt="" class="item">
+             <img loading="lazy" src="assets/img/screenshot/18.jpg" alt="" class="item">
+             <img loading="lazy" src="assets/img/screenshot/19.jpg" alt="" class="item">
+             <img loading="lazy" src="assets/img/screenshot/20.jpg" alt="" class="item">
+             <img loading="lazy" src="assets/img/screenshot/21.jpg" alt="" class="item">
+             <img loading="lazy" src="assets/img/screenshot/22.jpg" alt="" class="item">
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- End Portfolio Section -->
+
+    <!-- ======= Frequently Asked Questions Section ======= -->
+    <section id="faq" class="faq section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Frequently Asked Questions</h2>
+          <p>The rise of mobile devices transforms the way we consume information entirely and the world's most elevant channels such as Facebook.</p>
+        </div>
+
+        <div class="faq-list">
+          <ul>
+            <li data-aos="fade-up" data-aos-delay="100">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse"
+                data-bs-target="#faq-list-1">How to contact with riders emergency?<i
+                  class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
+                <p>
+                  Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.  
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="200">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2"
+                class="collapsed">App installation failed, how to update system information?<i
+                  class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  You can issue either partial or full refunds. There are no fees to refund a charge, but the fees from the original charge are not returned.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="300">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3"
+                class="collapsed">Website reponse taking time, how to improve? <i
+                  class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  Disputed payments (also known as chargebacks) incur a $15.00 fee. If the customer’s bank resolves the dispute in your favor, the fee is fully refunded.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="400">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4"
+                class="collapsed">New update fixed all bug and issues? <i
+                  class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  There are no additional fees for using our mobile SDKs or to accept payments using consumer wallets like Apple Pay or Google Pay.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="500">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5"
+                class="collapsed">How to contact with riders emergency? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  There are no additional fees for using our mobile SDKs or to accept payments using consumer wallets like Apple Pay or Google Pay.
+                </p>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+    </section><!-- End Frequently Asked Questions Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <br>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>E-6, J 52, Arera Colony,<br>
+                  Bhopal, Madhya Pradesh</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p><a href="mailto:care@moneycare.co.in">care@moneycare.co.in</a></p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>+91 9926999379<br>+91 9770081856</p>
+              </div>
+
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29334.950196569418!2d77.41427042687609!3d23.211452458647702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c42528bfdb253%3A0xa8042e11f260131d!2sArera%20Colony%2C%20Bhopal%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1699433829971!5m2!1sen!2sin"
+                frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+            </div>
+
+          </div>
+
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Your Name</label>
+                  <input type="text" name="name" class="form-control" id="name" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="name">Subject</label>
+                <input type="text" class="form-control" name="subject" id="subject" required>
+              </div>
+              <div class="form-group">
+                <label for="name">Message</label>
+                <textarea class="form-control" name="message" rows="10" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>Money Care & Solutions</h3>
+            <p>
+              E-6, J 52, Arera Colony,<br>
+              Bhopal, Madhya Pradesh,<br>
+              India <br><br>
+              <strong>Phone:</strong> +91 9926999379<br>+91 9770081856<br>
+              <strong>Email:</strong> <a href="mailto:care@moneycare.co.in">care@moneycare.co.in</a><br>
+            </p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="/">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/#about">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/#services">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/terms-condition.html">Terms and Conditions</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/privacy-policy.html">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Portfolio Analysis</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Portfolio Overview</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Endorsements</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Policy Summary</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Customised Statements</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Fund Management</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Claim Settlements</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Door-Step Services</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Social Networks</h4>
+            <!-- <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p> -->
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-bottom clearfix">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Money Care & Solutions</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by <a href="https://dhiyotech.in/" style="color: white;font-weight:700;">Dhiyotech Pvt. Ltd.</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <!-- <div id="preloader"></div> -->
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+    integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+    $(document).ready(function () {
+      $("#mobile-mockup-carousel").owlCarousel(
+        {
+          loop: true,
+          navs: false,
+          dots: false,
+          autoplay: true,
+          autoplayTimeout: 2000,
+          margin: 20,
+          responsiveClass: true,
+          responsive: {
+            0: {
+              items: 1,
+            },
+            600: {
+              items: 3,
+            },
+            1000: {
+              items: 5,
+            }
+          }
+        }
+      );
+    $('#about-owl-carousel').owlCarousel({
+            loop: true,
+            margin: 30,
+            dots: false,
+            items: 1,
+    });
+    });
+
+    function myFunction(morevalue) {
+      var dots = document.getElementById("dots-" + morevalue);
+      var moreText = document.getElementById("more-" + morevalue);
+      var btnText = document.getElementById("readmore-" + morevalue);
+
+      if (dots.style.display === "none" || dots.style.display === "") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more";
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less";
+        moreText.style.display = "inline";
+      }
+    }
+  </script>
+</body>
+
+</html>
